@@ -2,7 +2,9 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:#d0d5cd;   /* background color */
+	background-color:#FEF5E7;   /*background color */
+	/* background-repeat:repeat;
+	background-image: url("../img/background.png"); background image */
 	color: #444;          /* text color for the entire page */
 	font-size: 18px;
 	font-family: Verdana, Geneva, sans-serif;
@@ -18,29 +20,47 @@ h1, h2 {
 	margin:0 auto;    /* centers wrapper */
 }
 
+.borderClass {
+	border-style: solid;
+	border-radius: 20px;
+	margin-bottom: 12px;
+}
+
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
 	padding:4px;
 	text-align:left;
 	font-size:16px;
-	background-color:#F7B857
+	background-color:#F7B857;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
  }
 
 .stepContent{ 
 	background-color: white;
 	padding:7px;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
 }
 
 .stepDescription {
 	width:55%;
-	padding:5px;
+	padding:50px;
+
+
 }
 
 .stepImage {
 	width:40%;	
-	padding:5px;
+	padding:50px;
 	text-align: center;
 }
 
