@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2 { 
-	text-align:center;     /* centers h1 and h2 content */
+	text-align:left;     /* centers h1 and h2 content */
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -24,6 +24,7 @@ h1, h2 {
 	border-style: solid;
 	border-radius: 20px;
 	margin-bottom: 12px;
+	border-color:#F7B857
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
