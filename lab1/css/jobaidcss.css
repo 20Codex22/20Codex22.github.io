@@ -26,6 +26,13 @@ h1, h2 {
 	margin-bottom: 12px;
 	border-color:#F7B857
 }
+/*formatting Tips */
+.tipClass {
+	background-color: #D7FFF6;
+	padding:10px;
+	border-radius:20px;
+}
+
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
