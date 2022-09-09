@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2 { 
-	text-align:left;     /* centers h1 and h2 content */
+	text-align:left;     /* left aligns h1 and h2 content */
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
