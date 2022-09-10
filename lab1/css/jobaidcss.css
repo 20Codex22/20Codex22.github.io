@@ -7,7 +7,7 @@ body {
 	background-image: url("../img/background.png"); background image */
 	color: #444;          /* text color for the entire page */
 	font-size: 18px;
-	font-family: "Lucida Console", "Courier New", monospace;
+	font-family: Lato, Helvetica, sans-serif;
 }
 
 h1, h2 { 
@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 .material-icons {
-	color:#642A27; 
+	color:#86b85c; 
 	font-size:3em;
 }
 
