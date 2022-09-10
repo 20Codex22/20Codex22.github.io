@@ -33,6 +33,13 @@ h1, h2 {
 	border-radius:20px;
 }
 
+.material-icons {
+	color:#062A22; 
+	font-size:3em;
+}
+
+
+
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
