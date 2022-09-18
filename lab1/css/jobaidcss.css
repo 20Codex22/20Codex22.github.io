@@ -29,7 +29,7 @@ h1, h2 {
 /*formatting Tips */
 .tipClass {
 	background-color: #D7FFF6;
-	padding:10px;
+	padding:15px;
 	border-radius:20px;
 }
 
@@ -38,17 +38,14 @@ h1, h2 {
 	font-size:3em;
 }
 
-
-
-
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
-	padding:4px;
+	padding:10px;
 	margin-bottom: 12px;
 	text-align:left;
 	font-size:20px;
 	font-weight: bold;
-	background-color:#C69559;
+	background-color: #F7B857;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -71,6 +68,7 @@ h1, h2 {
 .stepDescription {
 	width:55%;
 	padding:50px;
+	justify-content: left;
 
 
 }
@@ -78,8 +76,5 @@ h1, h2 {
 .stepImage {
 	width:40%;	
 	padding:50px;
-	text-align: center;
+	text-align: right;
 }
-
-
-
