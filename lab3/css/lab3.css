@@ -1,35 +1,41 @@
 body {
-	text-align: center;
-	background-color:#FEF5E7;   /*background color */
-		/* background-repeat:repeat;
+  text-align: center;
+  background-color: #fef5e7; /*background color */
+  /* background-repeat:repeat;
 		background-image: url("../img/background.png"); background image */
-		color: #444;          /* text color for the entire page */
-		font-size: 18px;
-		font-family: Lato, Helvetica, sans-serif;
-	}
-	
-	h1, h2 { 
-		text-align:center;     /* left aligns h1 and h2 content */
-	}
+  color: #444; /* text color for the entire page */
+  font-size: 18px;
+  font-family: Lato, Helvetica, sans-serif;
+}
 
+.subpage_top h1,
+h2,
+p {
+  text-align: left; /* left aligns h1 and h2 content */
+  margin-left: 195px;
+}
+.subpage_p {
+  text-align: left; /* left aligns h1 and h2 content */
+  margin-left: 150px;
+  margin-right: 195px;
+}
 a {
-	padding: 15px;
-margin: 3px;
-	font-size: 125%;
-	background-color:  your_color_of_choice; 
-	color:  your_color_of_choice; 
+  padding: 15px;
+  margin: 3px;
+  font-size: 125%;
+  background-color: your_color_of_choice;
+  color: your_color_of_choice;
 }
 
 a:hover {
-	font-size:120%;
-	background-color: #FEF5E7; 
-	color: #101213; 
+  font-size: 120%;
+  background-color: #fef5e7;
+  color: #101213;
 }
 
 .menublock {
-	margin-top: 34px;
-	background-color: #F7B857;
-	padding:10px;
-	border-radius:20px;
+  margin-top: 34px;
+  background-color: #f7b857;
+  padding: 10px;
+  border-radius: 20px;
 }
-
