@@ -1,0 +1,17 @@
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+     #front {
+    border: black 5px solid;
+    width: 500px;
+    }
+     
+     #back {
+    display: none; /* hides content */
+    border: black 5px solid;
+    width: 500px;
+    }
+    
