@@ -11,20 +11,16 @@ body {
 }
 
 h1, h2 { 
-	text-align:left;     /* left aligns h1 and h2 content */
+	text-align:center;     /* left aligns h1 and h2 content */
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
 	/* width:900px; */
-	margin:0 auto;   
+	margin:0 auto;
 	text-align: left; /* left aligns h1 and h2 content */
   margin-left: 150px;
   margin-right: 195px; /* centers wrapper */
-}
-
-#header {
-	
 }
 
 .borderClass {
