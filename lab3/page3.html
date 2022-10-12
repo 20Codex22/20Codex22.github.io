@@ -1,6 +1,9 @@
 <html>
   <head>
     <link href="css/lab3.css" rel="stylesheet" type="text/css" />
+    <link href="../lab6/css/lab6.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../lab6/js/hotspot.js"></script>
   </head>
   <body>
     <div class="subpage_top">
@@ -86,6 +89,23 @@
           >
           by Nora Sokiryansky-Velasquez
         </div>
+        <div id="wrapper">       
+          <h2>Supermarket Tour</h2>
+          <h3> Click around to see the purpose of each section! </h3>
+          <img src="../lab6/img/supermarket.jpeg" width="800" height="481" usemap="#test" id="test" />
+         <map name="test">
+              <area id="eggs" shape="rect" coords="15,318,270,368" alt="eggs" href="#" title="eggs">
+              <area id="sales" shape="rect" coords="300,406,444,451" href="#" title="sales">
+              <area id="produce" shape="rect" coords="556,415,758,462" href="#" title="produce">
+              <!-- <area id= "endcap" shape="rect" coords="684,133,774,172" href="#" title="endcap"> -->
+              <area id = "endcap" shape="rect" coords="570,13,714,54" href="#" title="endcap">
+              <area id ="direction" shape="rect" coords="59,12,363,55" href="#" title="direction">
+            </map>
+            <br /><br />
+          <div id="feedback"></div>
+          <br /><br />
+           <div style="font-size:10px">Image Courtesy of Casino.org</div><br /> 
+         </div><!--closing wrapper-->  
       </div>
     </div>
     <!-- iFrame code will be added below -->
