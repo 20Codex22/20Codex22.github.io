@@ -51,7 +51,7 @@
         border-radius: 50px;
         display: block;
         /* width: px; */
-        margin-top: 24px;
+        margin-top: 50px;
     }
 
     .choices {
@@ -60,6 +60,7 @@
         
 
         .tooltip {
+           margin-top: 50px;
             position: relative;
             display: inline-block;
           }
