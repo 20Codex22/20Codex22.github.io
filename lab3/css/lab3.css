@@ -4,12 +4,13 @@ body {
   /* background-repeat:repeat;
 		background-image: url("../img/background.png"); background image */
   color: #444; /* text color for the entire page */
-  font-size: 18px;
-  font-family: Lato, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: Verdana, Geneva, sans-serif
 }
 
 h1 {
   margin-bottom: 2px;
+  text-align: left;
 }
 
 h2 {
@@ -20,6 +21,13 @@ h2 {
 h2
 {
   text-align: left; /* left aligns h1 and h2 content */
+}
+
+h6 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font-weight: normal;
+  margin-top: 4px;
 }
 
 .subpage_p {
@@ -51,6 +59,53 @@ a:hover {
 }
 
 .paddedcontent {
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.button {
+  border: none;
+  color: #444;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+  background-color: #F7B857; 
+  border-radius: 50px;
+  display: block;
+  /* width: px; */
+  margin-top: 24px;
+}
+
+.choices {
+  cursor: pointer;
+  }
+  
+
+  .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2a2825;
+  color: #ccc6bd;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  margin-top: 10px;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

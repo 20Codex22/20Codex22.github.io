@@ -84,3 +84,9 @@
           .tooltip:hover .tooltiptext {
             visibility: visible;
           }
+          h6 {
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            font-weight: normal;
+            margin-top: 4px;
+          }

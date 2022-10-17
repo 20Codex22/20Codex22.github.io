@@ -7,11 +7,11 @@ body {
 	background-image: url("../img/background.png"); background image */
 	color: #444;          /* text color for the entire page */
 	font-size: 18px;
-	font-family: Lato, Helvetica, sans-serif;
+	font-family: Verdana, Geneva, sans-serif
 }
 
 h1, h2 { 
-	text-align:center;     /* left aligns h1 and h2 content */
+	text-align:left;     /* left aligns h1 and h2 content */
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */

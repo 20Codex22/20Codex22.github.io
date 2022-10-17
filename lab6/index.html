@@ -1,13 +1,44 @@
 <html>
     <head>
-        <link href="../lab1/css/jobaidcss.css" rel="stylesheet" />
+       <link href="../lab1/css/jobaidcss.css" rel="stylesheet" />
         <link href="../lab6/css/lab6.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="js/hotspot.js"></script>
 
     </head>
     <body>
-        <div id="wrapper">       
+      <div id="wrapper">
+        <div class="subpage_top">
+          <div class="subpage_p">
+            <div class="menublock" style="justify-content: flex-end;">
+              <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                  <div style="display: flex; flex-direction: row; align-items: flex-end;">
+                      <img src="../lab3/img/Food at home.png" width="300"/>  
+                  </div>
+                <div style="display: flex; align-items: center; justify-content: right;">
+                    <a style="padding: 5px; color: black; margin-right: 10px;" href="..//lab3/index.html">Recipies</a>
+                    <a style="padding: 5px; color: black; margin-right: 10px;"  href="..//lab3/page2.html">Nutrition</a>
+                    <a style="padding: 5px; color: black; margin-right: 10px;"  href="..//lab3/page3.html">Pantry</a>
+                    <a style="padding: 5px; color: black; margin-right: 10px;"  href="..//lab3/page4.html">Skills</a>
+                    <a style="padding: 5px; color: black;"  href="..//lab6/index.html">Shopping</a>
+                </div>
+            </div>
+        </div>
+        <div class="paddedcontent" >
+          <h1>Food Shopping</h1>
+          <h3>Basic stuff you  need to know.</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        <div id="wrapper6">       
             <h2>Supermarket Tour</h2>
             <h3> Click around to see the purpose of each section! </h3>
             <img src="../lab6/img/supermarket.jpeg" width="800" height="481" usemap="#test" id="test" />
@@ -24,5 +55,11 @@
             <br /><br />
              <div style="font-size:10px">Image Courtesy of Casino.org</div><br /> 
            </div><!--closing wrapper-->    
-    </body>
+           <div class="tooltip">
+              <input class=button type=button value='BACK'  onClick="parent.open('https://20codex22.github.io/lab3/page3.html')">
+              <span class="tooltiptext">Click Here Visit the Previous Page</span>
+              <h6 style="margin-top:100px;"> Copyright Nora Velasquez 2022</h6>
+              <h6> CSUMB Project IST541</h6>
+          </div>
+          </body>
 </htmml>
