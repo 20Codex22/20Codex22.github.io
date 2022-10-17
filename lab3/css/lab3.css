@@ -9,12 +9,12 @@ body {
 }
 
 h1 {
-  margin-bottom: 2px;
   text-align: left;
 }
 
 h2 {
   margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .subpage_top h1,
